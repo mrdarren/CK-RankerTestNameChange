@@ -45,10 +45,28 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="cPA-bn-bO0"/>
+                    <connections>
+                        <segue destination="NYr-RT-GGc" kind="push" id="I8f-fC-raX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AOh-Pc-ado" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="872" y="-514"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CKP-dL-nfw">
+            <objects>
+                <viewController id="NYr-RT-GGc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5bw-7y-oQK">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="N3A-pw-z3W"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IG7-SX-NT0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1414" y="-522"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="P49-Z2-fDh">
